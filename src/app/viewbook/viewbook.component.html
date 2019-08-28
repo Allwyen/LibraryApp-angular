@@ -1,0 +1,22 @@
+<table class="table">
+    <tr>
+        <th>Title</th>
+        <th>Picture</th>
+        <th>Author</th>
+        <th>Publisher</th>
+        <th>DoP</th>
+        <th>Distributer</th>
+        <th>Price</th>
+        <th>Desc</th>
+      </tr>
+      <tr *ngFor="let data of mydata">
+        <td>{{data.title}}</td>
+        <td>{{data.picture}}</td>
+        <td>{{data.author}}</td>
+        <td>{{data.publisher}}</td>
+        <td>{{data.DoP}}</td>
+        <td>{{data.distributer}}</td>
+        <td>{{data.price}}</td>
+        <td>{{data.desc}}</td>
+      </tr>
+</table>

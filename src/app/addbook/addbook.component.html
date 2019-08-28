@@ -1,0 +1,13 @@
+<form (ngSubmit)=onSubmit(f) #f="ngForm">
+<table class="table">
+  <tr><td>Title</td><td><input type="text" class="form-control" name="title" id="" ngModel></td></tr>
+  <tr><td>Picture</td><td><input type="text" class="form-control" name="picture" id="" ngModel></td></tr>
+  <tr><td>Author</td><td><input type="text" class="form-control" name="author" id="" ngModel></td></tr>
+  <tr><td>Publisher</td><td><input type="text" class="form-control" name="publisher" id="" ngModel></td></tr>
+  <tr><td>DoP</td><td><input type="date" class="form-control" name="DoP" id="" ngModel></td></tr>
+  <tr><td>Distributer</td><td><input type="text" class="form-control" name="distributer" id="" ngModel></td></tr>
+  <tr><td>Price</td><td><input type="text" class="form-control" name="price" id="" ngModel></td></tr>
+  <tr><td>Desc</td><td><textarea name="desc" class="form-control" id="" cols="30" rows="3" ngModel></textarea></td></tr>
+  <tr><td></td><td><input type="submit" class="btn btn-primary" value="Add Book"></td></tr>
+</table>
+</form>
