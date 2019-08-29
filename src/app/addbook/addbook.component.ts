@@ -8,7 +8,7 @@ import { ApiService } from '../api.service';
 })
 export class AddbookComponent implements OnInit {
 
-  private mydata:Array<object> = [];
+  mydata:Array<object> = [];
 
   constructor(private apiservice:ApiService) { }
 
