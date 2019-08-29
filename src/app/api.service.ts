@@ -9,10 +9,10 @@ export class ApiService {
 
   addBookdata(data)
   {
-    return this.http.post("http://libraryappnodejs.herokuapp.com/insertbook",data);
+    return this.http.post("https://libraryappnodejs.herokuapp.com/insertbook",data);
   }
   viewBookdata()
   {
-    return this.http.get("http://libraryappnodejs.herokuapp.com/viewbook");
+    return this.http.get("https://libraryappnodejs.herokuapp.com/viewbook");
   }
 }
